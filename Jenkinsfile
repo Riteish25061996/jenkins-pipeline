@@ -1,7 +1,7 @@
 pipeline {
     agent {
         
-        label "built-in"
+        label "slave-1"
     }
 
     stages {
