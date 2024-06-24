@@ -25,7 +25,7 @@ pipeline {
                 script {
                     sh '''
                         # Create sample index.html
-                        echo "<html><body><h1>Hello, Swaraj!</h1></body></html>" > index.html
+                        echo "<html><body><h1>Hello, Nikhil!</h1></body></html>" > index.html
                         
                         # Copy index.html to /var/www/html
                         sudo cp index.html /var/www/html/index.html
